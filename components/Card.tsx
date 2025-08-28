@@ -1,6 +1,7 @@
 import { Feather } from "@expo/vector-icons";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import VideoScreen from "./VedioPlayer";
 
 const Card = ({ item }: { item: number }) => {
   return (
@@ -21,7 +22,7 @@ const Card = ({ item }: { item: number }) => {
           padding: 8,
         }}
       >
-        <Text style={{ textAlign: "center" }}>{"Number" + item}</Text>
+        <VideoScreen url="" />
       </View>
       <View
         style={{
